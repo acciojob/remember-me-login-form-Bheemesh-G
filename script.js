@@ -12,6 +12,7 @@ event.preventDefault();
 		if(localStorage.getItem('username') && localStorage.getItem('password'))
 		{
 		    existingButton.disabled = false;
+			existingButton.style.display = 'inline';
 			existingButton.textContent = "Login as existing user";
 		}
 		else{
