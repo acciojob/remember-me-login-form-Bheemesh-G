@@ -29,7 +29,7 @@ event.preventDefault();
 });
 
 existingButton.addEventListener('click',()=>{
-	alert("Logged in as.")
+	alert("Login as existing user")
 })
 
 
