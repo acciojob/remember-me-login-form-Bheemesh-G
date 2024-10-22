@@ -30,7 +30,7 @@ event.preventDefault();
 
 existingButton.addEventListener('click',()=>{
 	alert("Login as existing user")
-})
+});
 
 
 
