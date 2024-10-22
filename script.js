@@ -13,7 +13,6 @@ event.preventDefault();
 		{
 		    existingButton.disabled = false;
 			existingButton.style.display = 'inline';
-			existingButton.textContent = "Login as existing user";
 		}
 		else{
 		localStorage.setItem('username',userName.value);
