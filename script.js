@@ -5,7 +5,7 @@ const checkbox = document.getElementById('checkbox');
 const userName = document.getElementById('username');
 const password = document.getElementById('password');
 const existingButton= document.getElementById('existing');
-submitButton.addEventListener('click',()=>{
+submitButton.addEventListener('click',(event)=>{
 event.preventDefault();
 	if(checkbox.checked)
 	{
