@@ -12,18 +12,18 @@ event.preventDefault();
 		if(localStorage.getItem('username') && localStorage.getItem('password'))
 		{
 		    existingButton.disabled = false;
-			existingButton.textContent = "Login as existing user"
+			existingButton.textContent = "Login as existing user";
 		}
 		else{
 		localStorage.setItem('username',userName.value);
 		localStorage.setItem('password',password.value);
-			alert("Logged in as.")
+			alert(`Logged in as ${userName.value}`)
 		}
 	}
 	else{
 		localStorage.removeItem('username');
 		localStorage.removeItem('password');
-		alert("Logged in as.")
+		alert(`Logged in as ${userName.value}`)
 	}
 });
 
